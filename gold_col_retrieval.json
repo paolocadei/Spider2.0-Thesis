@@ -1,0 +1,2714 @@
+{
+  "sf_local285.sql": {
+    "tables": [
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.VEG_CAT",
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.VEG_LOSS_RATE_DF",
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.VEG_TXN_DF",
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.VEG_WHSLE_DF",
+      "final_item",
+      "item_2020",
+      "item_2021",
+      "item_2022",
+      "item_2023"
+    ],
+    "columns": [
+      "avg_loss_rate_pct",
+      "category_code",
+      "category_name",
+      "item_code",
+      "loss_rate_%",
+      "qty_sold(kg)",
+      "selling_price",
+      "txn_date",
+      "unit_selling_px_rmb/kg",
+      "whole_sale_price",
+      "whsle_date",
+      "whsle_px_rmb-kg"
+    ]
+  },
+  "sf_bq158.sql": {
+    "tables": [
+      "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.CLINICAL_PANCAN_PATIENT_WITH_FOLLOWUP_FILTERED",
+      "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.MC3_MAF_V5_ONE_PER_TUMOR_SAMPLE",
+      "percentages",
+      "summ_table",
+      "table1",
+      "table2"
+    ],
+    "columns": [
+      "FILTER",
+      "Hugo_Symbol",
+      "Nij",
+      "ParticipantBarcode",
+      "Study",
+      "acronym",
+      "bcr_patient_barcode",
+      "data1",
+      "data2",
+      "histological_type",
+      "mutation_percentage",
+      "symbol"
+    ]
+  },
+  "sf_bq429.sql": {
+    "tables": [
+      "CENSUS_BUREAU_ACS_2.CENSUS_BUREAU_ACS.ZIP_CODES_2015_5YR",
+      "CENSUS_BUREAU_ACS_2.CENSUS_BUREAU_ACS.ZIP_CODES_2017_5YR",
+      "CENSUS_BUREAU_ACS_2.CENSUS_BUREAU_ACS.ZIP_CODES_2018_5YR",
+      "CENSUS_BUREAU_ACS_2.GEO_US_BOUNDARIES.ZIP_CODES",
+      "acs_2015",
+      "acs_2018",
+      "acs_diff",
+      "base_census",
+      "median_income_diff_by_zipcode"
+    ],
+    "columns": [
+      "avg_median_income_diff",
+      "avg_vulnerable",
+      "employed_arts_entertainment_recreation_accommodation_food",
+      "employed_information",
+      "employed_retail_trade",
+      "employed_wholesale_trade",
+      "geo_id",
+      "median_income",
+      "median_income_2015",
+      "median_income_2018",
+      "median_income_diff",
+      "occupation_natural_resources_construction_maintenance",
+      "state_name",
+      "zip_code"
+    ]
+  },
+  "sf_bq159.sql": {
+    "tables": [
+      "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.CLINICAL_PANCAN_PATIENT_WITH_FOLLOWUP_FILTERED",
+      "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.MC3_MAF_V5_ONE_PER_TUMOR_SAMPLE",
+      "contingency_table",
+      "expected_table",
+      "summ_table",
+      "table1",
+      "table2"
+    ],
+    "columns": [
+      "E_nij",
+      "FILTER",
+      "Hugo_Symbol",
+      "Ni",
+      "Nij",
+      "Nj",
+      "ParticipantBarcode",
+      "Study",
+      "acronym",
+      "avgdata",
+      "bcr_patient_barcode",
+      "data",
+      "data1",
+      "data2",
+      "histological_type",
+      "symbol"
+    ]
+  },
+  "sf_bq213.sql": {
+    "tables": [
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "interim_table"
+    ],
+    "columns": [
+      "country_code",
+      "grant_date",
+      "ipc",
+      "ipc4",
+      "publication_number",
+      "value"
+    ]
+  },
+  "sf_bq167.sql": {
+    "tables": [
+      "META_KAGGLE.META_KAGGLE.FORUMMESSAGEVOTES",
+      "META_KAGGLE.META_KAGGLE.USERS",
+      "ReciprocalUpvotes",
+      "TopPairs",
+      "UserPairUpvotes"
+    ],
+    "columns": [
+      "FromUserId",
+      "FromUserName",
+      "Id",
+      "Rank",
+      "ToUserId",
+      "ToUserName",
+      "UpvoteCount",
+      "UpvotesGiven",
+      "UpvotesReceived",
+      "UserName"
+    ]
+  },
+  "sf_bq359.sql": {
+    "tables": [
+      "GITHUB_REPOS.GITHUB_REPOS.LANGUAGES",
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_COMMITS",
+      "python_repo",
+      "repositories"
+    ],
+    "columns": [
+      "commit",
+      "language",
+      "language_bytes",
+      "num_commits",
+      "rank",
+      "repo_name",
+      "value"
+    ]
+  },
+  "sf_bq358.sql": {
+    "tables": [
+      "NEW_YORK_CITIBIKE_1.GEO_US_BOUNDARIES.ZIP_CODES",
+      "NEW_YORK_CITIBIKE_1.NEW_YORK_CITIBIKE.CITIBIKE_TRIPS",
+      "NEW_YORK_CITIBIKE_1.NOAA_GSOD.GSOD2015"
+    ],
+    "columns": [
+      "da",
+      "end_station_latitude",
+      "end_station_longitude",
+      "mo",
+      "start_station_latitude",
+      "start_station_longitude",
+      "starttime",
+      "temp",
+      "wban",
+      "year",
+      "zip_code",
+      "zip_code_geom"
+    ]
+  },
+  "sf_bq166.sql": {
+    "tables": [
+      "TCGA_MITELMAN.PROD.CYTOBANDS_HG38",
+      "TCGA_MITELMAN.TCGA_VERSIONED.COPY_NUMBER_SEGMENT_ALLELIC_HG38_GDC_R23",
+      "aberrations",
+      "cbands",
+      "copy",
+      "cytob",
+      "joined",
+      "total_cases"
+    ],
+    "columns": [
+      "case_barcode",
+      "chromosome",
+      "copy_number",
+      "cytoband_name",
+      "end_pos",
+      "hg38_start",
+      "hg38_stop",
+      "project_short_name",
+      "start_pos",
+      "total",
+      "total_amp",
+      "total_gain",
+      "total_heterodel",
+      "total_homodel",
+      "total_normal"
+    ]
+  },
+  "sf018.sql": {
+    "tables": [
+      "BRAZE_USER_EVENT_DEMO_DATASET.PUBLIC.USERS_MESSAGES_PUSHNOTIFICATION_BOUNCE_VIEW",
+      "BRAZE_USER_EVENT_DEMO_DATASET.PUBLIC.USERS_MESSAGES_PUSHNOTIFICATION_INFLUENCEDOPEN_VIEW",
+      "BRAZE_USER_EVENT_DEMO_DATASET.PUBLIC.USERS_MESSAGES_PUSHNOTIFICATION_OPEN_VIEW",
+      "BRAZE_USER_EVENT_DEMO_DATASET.PUBLIC.USERS_MESSAGES_PUSHNOTIFICATION_SEND_VIEW",
+      "push_bounce",
+      "push_open",
+      "push_open_influence",
+      "push_send"
+    ],
+    "columns": [
+      "TIME",
+      "ad_tracking_enabled",
+      "app_group_id",
+      "browser",
+      "campaign_id",
+      "carrier",
+      "device_model",
+      "id",
+      "message_variation_id",
+      "platform",
+      "time",
+      "user_id"
+    ]
+  },
+  "sf_local244.sql": {
+    "tables": [
+      "MUSIC.MUSIC.INVOICELINE",
+      "MUSIC.MUSIC.TRACK",
+      "categ",
+      "temp_t1"
+    ],
+    "columns": [
+      "LengthCateg",
+      "Limit1",
+      "Limit2",
+      "Limit3",
+      "Limit4",
+      "Milliseconds",
+      "Quantity",
+      "TotalPrice",
+      "TrackId",
+      "UnitPrice",
+      "avg_milliseconds"
+    ]
+  },
+  "sf_bq012.sql": {
+    "tables": [
+      "ETHEREUM_BLOCKCHAIN.ETHEREUM_BLOCKCHAIN.BLOCKS",
+      "ETHEREUM_BLOCKCHAIN.ETHEREUM_BLOCKCHAIN.TRACES",
+      "ETHEREUM_BLOCKCHAIN.ETHEREUM_BLOCKCHAIN.TRANSACTIONS",
+      "double_entry_book",
+      "top_10_balances"
+    ],
+    "columns": [
+      "address",
+      "balance",
+      "block_number",
+      "call_type",
+      "from_address",
+      "gas_price",
+      "miner",
+      "number",
+      "receipt_gas_used",
+      "status",
+      "to_address",
+      "value"
+    ]
+  },
+  "sf_bq210.sql": {
+    "tables": [
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "Publication_data",
+      "patents_sample"
+    ],
+    "columns": [
+      "claims_localized",
+      "claims_text",
+      "country_code",
+      "grant_date",
+      "nb_indep_claims",
+      "publication_number",
+      "value"
+    ]
+  },
+  "sf_local056.sql": {
+    "tables": [
+      "SQLITE_SAKILA.SQLITE_SAKILA.CUSTOMER",
+      "SQLITE_SAKILA.SQLITE_SAKILA.PAYMENT",
+      "average_difference",
+      "difference_per_mon",
+      "result_table"
+    ],
+    "columns": [
+      "amount",
+      "avg_diff",
+      "customer_id",
+      "diff",
+      "first_name",
+      "fullname",
+      "last_name",
+      "pay_amount",
+      "pay_mon",
+      "payment_date"
+    ]
+  },
+  "sf_local283.sql": {
+    "tables": [
+      "AWAY_TEAM",
+      "EU_SOCCER.EU_SOCCER.COUNTRY",
+      "EU_SOCCER.EU_SOCCER.LEAGUE",
+      "EU_SOCCER.EU_SOCCER.MATCH",
+      "EU_SOCCER.EU_SOCCER.TEAM",
+      "HOME_TEAM",
+      "TABLE_1",
+      "TABLE_2",
+      "TABLE_3",
+      "TABLE_4"
+    ],
+    "columns": [
+      "away_team",
+      "away_team_api_id",
+      "away_team_goal",
+      "away_team_result",
+      "country_id",
+      "country_name",
+      "date",
+      "home_team",
+      "home_team_api_id",
+      "home_team_goal",
+      "home_team_result",
+      "id",
+      "league_id",
+      "league_name",
+      "name",
+      "points",
+      "result",
+      "season",
+      "season_rank",
+      "stage",
+      "team",
+      "team_api_id",
+      "team_long_name",
+      "total_points"
+    ]
+  },
+  "sf_bq176.sql": {
+    "tables": [
+      "INFO",
+      "TCGA_MITELMAN.PROD.CYTOBANDS_HG38",
+      "TCGA_MITELMAN.TCGA_VERSIONED.COPY_NUMBER_SEGMENT_ALLELIC_HG38_GDC_R23",
+      "copy",
+      "cytob",
+      "joined"
+    ],
+    "columns": [
+      "case_barcode",
+      "chromosome",
+      "copy_number",
+      "cytoband_name",
+      "end_pos",
+      "hg38_start",
+      "hg38_stop",
+      "overlap",
+      "project_short_name",
+      "start_pos"
+    ]
+  },
+  "sf_bq412.sql": {
+    "tables": [
+      "GOOGLE_ADS.GOOGLE_ADS_TRANSPARENCY_CENTER.REMOVED_CREATIVE_STATS"
+    ],
+    "columns": [
+      "audience_selection_approach_info",
+      "creative_page_url",
+      "disapproval",
+      "last_shown",
+      "region_stats",
+      "value"
+    ]
+  },
+  "sf_bq349.sql": {
+    "tables": [
+      "GEO_OPENSTREETMAP.GEO_OPENSTREETMAP.PLANET_FEATURES",
+      "GEO_OPENSTREETMAP.GEO_OPENSTREETMAP.PLANET_NODES",
+      "bounding_area",
+      "closest_to_median",
+      "median_value",
+      "poi",
+      "poi_counts"
+    ],
+    "columns": [
+      "all_tags",
+      "diff_from_median",
+      "feature_type",
+      "geometry",
+      "id",
+      "median_pois",
+      "osm_id",
+      "poi_geometry",
+      "poi_id",
+      "total_pois",
+      "value"
+    ]
+  },
+  "sf_local309.sql": {
+    "tables": [
+      "F1.F1.CONSTRUCTORS",
+      "F1.F1.DRIVERS",
+      "F1.F1.RACES",
+      "F1.F1.RESULTS",
+      "max_points",
+      "year_points"
+    ],
+    "columns": [
+      "constructor",
+      "constructor_id",
+      "driver",
+      "driver_id",
+      "forename",
+      "max_constructor_points",
+      "max_driver_points",
+      "name",
+      "points",
+      "race_id",
+      "surname",
+      "year"
+    ]
+  },
+  "sf_bq017.sql": {
+    "tables": [
+      "GEO_OPENSTREETMAP.GEO_OPENSTREETMAP.PLANET_FEATURES",
+      "bounding_area",
+      "highway_info"
+    ],
+    "columns": [
+      "all_tags",
+      "feature_type",
+      "geometry",
+      "highway_length",
+      "highway_type",
+      "value"
+    ]
+  },
+  "sf_local269.sql": {
+    "tables": [
+      "LEAF",
+      "ORACLE_SQL.ORACLE_SQL.PACKAGING",
+      "ORACLE_SQL.ORACLE_SQL.PACKAGING_RELATIONS",
+      "PACKAGING_COMBINATION_QUANTITIES",
+      "RANKED_RECURSIVE_PR",
+      "RECURSIVE_PR"
+    ],
+    "columns": [
+      "*",
+      "contains_id",
+      "id",
+      "is_leaf",
+      "lvl",
+      "packaging_id",
+      "qty",
+      "root_id",
+      "total_qty"
+    ]
+  },
+  "sf_bq377.sql": {
+    "tables": [
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_CONTENTS",
+      "json_files",
+      "package_names"
+    ],
+    "columns": [
+      "content",
+      "count",
+      "dependencies",
+      "id",
+      "key",
+      "package_name"
+    ]
+  },
+  "sf_local336.sql": {
+    "tables": [
+      "F1.F1.LAP_POSITIONS",
+      "F1.F1.LAP_TIMES_EXT",
+      "F1.F1.PIT_STOPS",
+      "F1.F1.RACES_EXT",
+      "F1.F1.RESULTS",
+      "F1.F1.RETIREMENTS"
+    ],
+    "columns": [
+      "driver_id",
+      "grid",
+      "is_pit_data_available",
+      "lap",
+      "milliseconds",
+      "overtake_type",
+      "position",
+      "race_id",
+      "running_milliseconds"
+    ]
+  },
+  "sf_bq028.sql": {
+    "tables": [
+      "DEPS_DEV_V1.DEPS_DEV_V1.PACKAGEVERSIONS",
+      "DEPS_DEV_V1.DEPS_DEV_V1.PACKAGEVERSIONTOPROJECT",
+      "DEPS_DEV_V1.DEPS_DEV_V1.PROJECTS",
+      "HighestReleases",
+      "PVP"
+    ],
+    "columns": [
+      "Name",
+      "ProjectName",
+      "ProjectType",
+      "RowNumber",
+      "StarsCount",
+      "System",
+      "Type",
+      "Version",
+      "VersionInfo"
+    ]
+  },
+  "sf_bq216.sql": {
+    "tables": [
+      "PATENTS_GOOGLE.PATENTS_GOOGLE.ABS_AND_EMB",
+      "PATENTS_GOOGLE.PATENTS_GOOGLE.PUBLICATIONS",
+      "flattened_t5",
+      "flattened_t6",
+      "patents_sample",
+      "similarities"
+    ],
+    "columns": [
+      "*",
+      "application_number",
+      "base_publication_number",
+      "element_value",
+      "embedding_v1",
+      "filing_date",
+      "filing_year",
+      "focal_filing_year",
+      "index",
+      "pos",
+      "publication_number",
+      "seqnum",
+      "similar_publication_number",
+      "similarity",
+      "value"
+    ]
+  },
+  "sf_bq271.sql": {
+    "tables": [
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.DISTRIBUTION_CENTERS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.INVENTORY_ITEMS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDERS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDER_ITEMS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.USERS",
+      "orders_x_inventory",
+      "orders_x_order_items",
+      "orders_x_users"
+    ],
+    "columns": [
+      "*",
+      "cost",
+      "country",
+      "created_at",
+      "id",
+      "inventory_item_id",
+      "name",
+      "order_id",
+      "product_category",
+      "product_department",
+      "product_distribution_center_id",
+      "product_retail_price",
+      "reporting_month",
+      "sale_price",
+      "user_id",
+      "users_country"
+    ]
+  },
+  "sf_bq265.sql": {
+    "tables": [
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDERS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDER_ITEMS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.USERS",
+      "daate",
+      "kite",
+      "main",
+      "nest",
+      "orders",
+      "type"
+    ],
+    "columns": [
+      "avg_order_value",
+      "cohort_date",
+      "country",
+      "created_at",
+      "email",
+      "gender",
+      "id",
+      "latest_shopping_date",
+      "lifespan_months",
+      "ltv",
+      "no_of_order",
+      "num_of_item",
+      "order_date",
+      "order_id",
+      "product_id",
+      "sale_price",
+      "status",
+      "total_sale",
+      "traffic_source",
+      "user_id"
+    ]
+  },
+  "sf044.sql": {
+    "tables": [
+      "FINANCE__ECONOMICS.CYBERSYN.stock_price_timeseries",
+      "ytd_performance"
+    ],
+    "columns": [
+      "date",
+      "latest_date",
+      "latest_price",
+      "percentage_change_ytd",
+      "start_of_year_date",
+      "start_of_year_price",
+      "ticker",
+      "value",
+      "variable_name"
+    ]
+  },
+  "sf_local218.sql": {
+    "tables": [
+      "EU_SOCCER.EU_SOCCER.MATCH",
+      "goals_per_club",
+      "max_goals_per_team",
+      "ranked_goals"
+    ],
+    "columns": [
+      "away_team_api_id",
+      "away_team_goal",
+      "goals",
+      "home_team_api_id",
+      "home_team_goal",
+      "max_goals",
+      "row_num",
+      "season",
+      "team",
+      "total_count",
+      "total_goals"
+    ]
+  },
+  "sf_bq072.sql": {
+    "tables": [
+      "BlackRace",
+      "DEATH.DEATH.DEATHRECORDS",
+      "DEATH.DEATH.ENTITYAXISCONDITIONS",
+      "DEATH.DEATH.ICD10CODE",
+      "DEATH.DEATH.RACE"
+    ],
+    "columns": [
+      "Age",
+      "Black",
+      "CODE",
+      "Code",
+      "DeathRecordId",
+      "Description",
+      "Icd10Code",
+      "Id",
+      "Race",
+      "Total",
+      "id"
+    ]
+  },
+  "sf_bq099.sql": {
+    "tables": [
+      "AggregatedData",
+      "AssigneeApplications",
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "PatentApplications",
+      "RankedApplications"
+    ],
+    "columns": [
+      "application_number",
+      "assignee_harmonized",
+      "assignee_name",
+      "country_code",
+      "cpc",
+      "filing_date",
+      "filing_year",
+      "rn",
+      "total_cnt",
+      "total_count",
+      "value",
+      "year_cnt",
+      "year_country_cnt"
+    ]
+  },
+  "sf_bq264.sql": {
+    "tables": [
+      "TEMP_record",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.USERS",
+      "oldest",
+      "youngest"
+    ],
+    "columns": [
+      "age",
+      "created_at",
+      "first_name",
+      "gender",
+      "id",
+      "last_name"
+    ]
+  },
+  "sf_local026.sql": {
+    "tables": [
+      "COMBINED_RUNS",
+      "IPL.IPL.BALL_BY_BALL",
+      "IPL.IPL.BATSMAN_SCORED",
+      "IPL.IPL.EXTRA_RUNS",
+      "IPL.IPL.PLAYER",
+      "MAX_OVER_RUNS",
+      "OVER_RUNS",
+      "TOP_BOWLERS",
+      "TOP_OVERS"
+    ],
+    "columns": [
+      "ball_id",
+      "bowler",
+      "extra_runs",
+      "innings_no",
+      "match_id",
+      "max_runs",
+      "maximum_runs",
+      "over_id",
+      "player_id",
+      "player_name",
+      "runs",
+      "runs_scored"
+    ]
+  },
+  "sf_local030.sql": {
+    "tables": [
+      "BRAZILIAN_E_COMMERCE.BRAZILIAN_E_COMMERCE.OLIST_CUSTOMERS",
+      "BRAZILIAN_E_COMMERCE.BRAZILIAN_E_COMMERCE.OLIST_ORDERS",
+      "BRAZILIAN_E_COMMERCE.BRAZILIAN_E_COMMERCE.OLIST_ORDER_PAYMENTS",
+      "bottom_five_cities"
+    ],
+    "columns": [
+      "Total_Number_Of_Orders",
+      "Total_Payment_By_Customers",
+      "customer_city",
+      "customer_id",
+      "order_id",
+      "order_status",
+      "payment_value"
+    ]
+  },
+  "sf_bq070.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "sm_images",
+      "specimen_preparation_sequence_items",
+      "tissue_types"
+    ],
+    "columns": [
+      "*",
+      "ContainerIdentifier",
+      "ImageType",
+      "Modality",
+      "PatientID",
+      "SeriesInstanceUID",
+      "SharedFunctionalGroupsSequence",
+      "SpecimenDescriptionSequence",
+      "StudyInstanceUID",
+      "TotalPixelMatrixColumns",
+      "TotalPixelMatrixRows",
+      "TransferSyntaxUID",
+      "collection_id",
+      "compression",
+      "crdc_instance_uuid",
+      "digital_slide_id",
+      "gcs_url",
+      "item_name",
+      "item_value",
+      "tissue_type",
+      "value"
+    ]
+  },
+  "sf_bq104.sql": {
+    "tables": [
+      "GOOGLE_TRENDS.GOOGLE_TRENDS.TOP_RISING_TERMS",
+      "LatestRefreshDate",
+      "LatestWeek",
+      "RankedTerms"
+    ],
+    "columns": [
+      "dma_name",
+      "last_year_week",
+      "latest_refresh_date",
+      "rank",
+      "refresh_date",
+      "rn",
+      "score",
+      "term",
+      "week"
+    ]
+  },
+  "sf_local019.sql": {
+    "tables": [
+      "MatchDetails",
+      "Rank1",
+      "WWE.WWE.BELTS",
+      "WWE.WWE.CARDS",
+      "WWE.WWE.EVENTS",
+      "WWE.WWE.LOCATIONS",
+      "WWE.WWE.MATCHES",
+      "WWE.WWE.PROMOTIONS",
+      "WWE.WWE.WRESTLERS"
+    ],
+    "columns": [
+      "card_id",
+      "duration",
+      "event",
+      "event_id",
+      "id",
+      "location",
+      "location_id",
+      "loser_id",
+      "match_duration",
+      "matches",
+      "name",
+      "promotion_id",
+      "rank",
+      "title_id",
+      "titles",
+      "win_type",
+      "winner_id"
+    ]
+  },
+  "sf_bq273.sql": {
+    "tables": [
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDERS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDER_ITEMS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.PRODUCTS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.USERS",
+      "filter_join",
+      "monthly_sales",
+      "order_items",
+      "orders",
+      "products",
+      "users"
+    ],
+    "columns": [
+      "cost",
+      "created_at",
+      "delivered_at",
+      "delivery_month",
+      "id",
+      "order_id",
+      "product_id",
+      "profit_vs_prior_month",
+      "sale_price",
+      "status",
+      "total_profit",
+      "traffic_source",
+      "user_id"
+    ]
+  },
+  "sf_local009.sql": {
+    "tables": [
+      "AIRLINES.AIRLINES.AIRPORTS_DATA",
+      "AIRLINES.AIRLINES.FLIGHTS",
+      "ALL_Route",
+      "DISTANCES",
+      "FLIGHT_INFO"
+    ],
+    "columns": [
+      "airport_code",
+      "arrival_airport",
+      "city",
+      "city1",
+      "city2",
+      "coordinates",
+      "departure_airport",
+      "distance_km",
+      "flight_id",
+      "from_city",
+      "from_latitude",
+      "from_longitude",
+      "to_city",
+      "to_latitude",
+      "to_longitude"
+    ]
+  },
+  "sf_bq263.sql": {
+    "tables": [
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDERS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.ORDER_ITEMS",
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.PRODUCTS",
+      "d",
+      "e"
+    ],
+    "columns": [
+      "Profit_to_cost_ratio",
+      "TPO",
+      "TPV",
+      "category",
+      "cost",
+      "created_at",
+      "id",
+      "month",
+      "order_id",
+      "product_id",
+      "sale_price",
+      "status",
+      "total_cost",
+      "total_profit",
+      "year"
+    ]
+  },
+  "sf_bq128.sql": {
+    "tables": [
+      "PATENTSVIEW.PATENTSVIEW.APPLICATION",
+      "PATENTSVIEW.PATENTSVIEW.CPC_CURRENT",
+      "PATENTSVIEW.PATENTSVIEW.PATENT",
+      "PATENTSVIEW.PATENTSVIEW.USPATENTCITATION"
+    ],
+    "columns": [
+      "abstract",
+      "bkwdCitations",
+      "citation_id",
+      "country",
+      "date",
+      "fwrdCitations_5",
+      "group_id",
+      "id",
+      "patent_id",
+      "subsection_id",
+      "title"
+    ]
+  },
+  "sf_bq289.sql": {
+    "tables": [
+      "GEO_OPENSTREETMAP_CENSUS_PLACES.GEO_OPENSTREETMAP.PLANET_FEATURES_POINTS",
+      "GEO_OPENSTREETMAP_CENSUS_PLACES.GEO_US_CENSUS_PLACES.PLACES_PENNSYLVANIA",
+      "amenities",
+      "joiin",
+      "philadelphia"
+    ],
+    "columns": [
+      "*",
+      "all_tags",
+      "distance",
+      "geometry",
+      "osm_id",
+      "place_geom",
+      "place_name",
+      "row_num",
+      "value"
+    ]
+  },
+  "sf_bq248.sql": {
+    "tables": [
+      "GITHUB_REPOS.GITHUB_REPOS.LANGUAGES",
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_CONTENTS",
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_FILES",
+      "requests"
+    ],
+    "columns": [
+      "content",
+      "id",
+      "language",
+      "language_name",
+      "path",
+      "repo_name",
+      "value"
+    ]
+  },
+  "sf_local022.sql": {
+    "tables": [
+      "IPL.IPL.BALL_BY_BALL",
+      "IPL.IPL.BATSMAN_SCORED",
+      "IPL.IPL.MATCH",
+      "IPL.IPL.PLAYER",
+      "IPL.IPL.PLAYER_MATCH",
+      "LOSING_TEAMS",
+      "PLAYERS_IN_LOSING_TEAMS",
+      "PLAYER_RUNS"
+    ],
+    "columns": [
+      "ball_id",
+      "innings_no",
+      "loser",
+      "match_id",
+      "match_winner",
+      "over_id",
+      "player_id",
+      "player_name",
+      "runs_scored",
+      "striker",
+      "team_1",
+      "team_2",
+      "team_id"
+    ]
+  },
+  "sf_bq260.sql": {
+    "tables": [
+      "THELOOK_ECOMMERCE.THELOOK_ECOMMERCE.USERS",
+      "filtered_users",
+      "oldest_ages",
+      "youngest_ages",
+      "youngest_oldest"
+    ],
+    "columns": [
+      "age",
+      "created_at",
+      "first_name",
+      "gender",
+      "last_name",
+      "tag"
+    ]
+  },
+  "sf040.sql": {
+    "tables": [
+      "US_ADDRESSES__POI.CYBERSYN.geography_characteristics",
+      "US_ADDRESSES__POI.CYBERSYN.geography_index",
+      "US_ADDRESSES__POI.CYBERSYN.geography_relationships",
+      "US_ADDRESSES__POI.CYBERSYN.us_addresses",
+      "zip_area_ranks",
+      "zip_areas"
+    ],
+    "columns": [
+      "LATITUDE",
+      "area",
+      "country",
+      "geo_id",
+      "geo_name",
+      "id_zip",
+      "level",
+      "number",
+      "related_geo_name",
+      "related_level",
+      "relationship_type",
+      "state",
+      "street",
+      "street_type",
+      "value",
+      "zip_area_rank"
+    ]
+  },
+  "sf_local354.sql": {
+    "tables": [
+      "F1.F1.RACES",
+      "F1.F1.RESULTS",
+      "drives_prelim",
+      "first_last_races"
+    ],
+    "columns": [
+      "constructor_id",
+      "driver_id",
+      "first_round",
+      "is_first_race",
+      "is_last_race",
+      "last_round",
+      "race_id",
+      "round",
+      "year"
+    ]
+  },
+  "sf_local195.sql": {
+    "tables": [
+      "ACTORS_SALES",
+      "CUSTOMER_RENTALS",
+      "CUSTOMER_TOP_MOVIES",
+      "SQLITE_SAKILA.SQLITE_SAKILA.ACTOR",
+      "SQLITE_SAKILA.SQLITE_SAKILA.CUSTOMER",
+      "SQLITE_SAKILA.SQLITE_SAKILA.FILM",
+      "SQLITE_SAKILA.SQLITE_SAKILA.FILM_ACTOR",
+      "SQLITE_SAKILA.SQLITE_SAKILA.INVENTORY",
+      "SQLITE_SAKILA.SQLITE_SAKILA.PAYMENT",
+      "SQLITE_SAKILA.SQLITE_SAKILA.RENTAL",
+      "TOP5",
+      "TOP_MOVIES"
+    ],
+    "columns": [
+      "actor_id",
+      "amount",
+      "customer_id",
+      "film_id",
+      "first_name",
+      "gross_sales",
+      "inventory_id",
+      "last_name",
+      "rental_id",
+      "title"
+    ]
+  },
+  "sf_local157.sql": {
+    "tables": [
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.BITCOIN_PRICES",
+      "cte_adjusted_prices",
+      "cte_previous_volume"
+    ],
+    "columns": [
+      "market_date",
+      "previous_volume",
+      "ticker",
+      "volume"
+    ]
+  },
+  "sf_local194.sql": {
+    "tables": [
+      "ACTOR_COUNT",
+      "FILM_REVENUE",
+      "FILM_REV_PER_ACTOR",
+      "SQLITE_SAKILA.SQLITE_SAKILA.FILM",
+      "SQLITE_SAKILA.SQLITE_SAKILA.FILM_ACTOR",
+      "SQLITE_SAKILA.SQLITE_SAKILA.INVENTORY",
+      "SQLITE_SAKILA.SQLITE_SAKILA.PAYMENT",
+      "SQLITE_SAKILA.SQLITE_SAKILA.RENTAL"
+    ],
+    "columns": [
+      "actor_id",
+      "amount",
+      "film_id",
+      "gross_revenue",
+      "inventory_id",
+      "num_actors",
+      "rental_id",
+      "rev_per_actor",
+      "title"
+    ]
+  },
+  "sf_local355.sql": {
+    "tables": [
+      "F1.F1.DRIVER_STANDINGS_EXT",
+      "F1.F1.RACES_EXT",
+      "F1.F1.RESULTS",
+      "first_race",
+      "hiatus_prelim",
+      "last_race",
+      "missed_races"
+    ],
+    "columns": [
+      "constructor_id",
+      "drive_id",
+      "driver_id",
+      "first_round",
+      "is_first_race",
+      "is_last_race",
+      "last_round",
+      "next_constructor_id",
+      "previous_constructor_id",
+      "race_id",
+      "round",
+      "year"
+    ]
+  },
+  "sf_local209.sql": {
+    "tables": [
+      "DELIVERY_CENTER.DELIVERY_CENTER.DELIVERIES",
+      "DELIVERY_CENTER.DELIVERY_CENTER.ORDERS",
+      "DELIVERY_CENTER.DELIVERY_CENTER.STORES",
+      "deliveries_completed",
+      "store_order_counts"
+    ],
+    "columns": [
+      "deliveries_completed",
+      "delivery_order_id",
+      "delivery_status",
+      "order_id",
+      "store_id",
+      "store_name",
+      "total_orders"
+    ]
+  },
+  "sf_bq250.sql": {
+    "tables": [
+      "GEO_OPENSTREETMAP_WORLDPOP.GEO_OPENSTREETMAP.PLANET_LAYERS",
+      "GEO_OPENSTREETMAP_WORLDPOP.WORLDPOP.POPULATION_GRID_1KM",
+      "aggregated_population",
+      "country_name",
+      "distances",
+      "hospitals",
+      "last_updated",
+      "population"
+    ],
+    "columns": [
+      "boundingbox",
+      "centr",
+      "country_name",
+      "distance",
+      "geo_id",
+      "geog",
+      "geometry",
+      "last_updated",
+      "latitude_centroid",
+      "layer_code",
+      "longitude_centroid",
+      "population",
+      "sum_population",
+      "value"
+    ]
+  },
+  "sf_bq091.sql": {
+    "tables": [
+      "AA",
+      "AssigneeApplications",
+      "MaxYearForTopAssignee",
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "PatentApplications",
+      "TotalApplicationsPerAssignee"
+    ],
+    "columns": [
+      "application_number",
+      "assignee_harmonized",
+      "assignee_name",
+      "cpc",
+      "filing_date",
+      "filing_year",
+      "total_applications",
+      "value"
+    ]
+  },
+  "sf_bq052.sql": {
+    "tables": [
+      "PATENTSVIEW.PATENTSVIEW.APPLICATION",
+      "PATENTSVIEW.PATENTSVIEW.BRF_SUM_TEXT",
+      "PATENTSVIEW.PATENTSVIEW.CPC_CURRENT",
+      "PATENTSVIEW.PATENTSVIEW.PATENT",
+      "PATENTSVIEW.PATENTSVIEW.USPATENTCITATION"
+    ],
+    "columns": [
+      "bkwdCitations_1",
+      "country",
+      "date",
+      "fwrdCitations_1",
+      "group_id",
+      "id",
+      "patent_id",
+      "subsection_id",
+      "text",
+      "title"
+    ]
+  },
+  "sf_local210.sql": {
+    "tables": [
+      "DELIVERY_CENTER.DELIVERY_CENTER.HUBS",
+      "DELIVERY_CENTER.DELIVERY_CENTER.ORDERS",
+      "DELIVERY_CENTER.DELIVERY_CENTER.STORES",
+      "february_orders",
+      "march_orders"
+    ],
+    "columns": [
+      "hub_id",
+      "hub_name",
+      "order_created_month",
+      "order_status",
+      "orders_february",
+      "orders_march",
+      "store_id"
+    ]
+  },
+  "sf_local199.sql": {
+    "tables": [
+      "SQLITE_SAKILA.SQLITE_SAKILA.RENTAL",
+      "SQLITE_SAKILA.SQLITE_SAKILA.STAFF",
+      "monthly_sales",
+      "result_table",
+      "store_max_sales"
+    ],
+    "columns": [
+      "count",
+      "max_rentals",
+      "rental_date",
+      "rental_id",
+      "rental_month",
+      "staff_id",
+      "store_id",
+      "total_rentals",
+      "year"
+    ]
+  },
+  "sf_bq127.sql": {
+    "tables": [
+      "PATENTS_GOOGLE.PATENTS_GOOGLE.ABS_AND_EMB",
+      "PATENTS_GOOGLE.PATENTS_GOOGLE.PUBLICATIONS",
+      "cit",
+      "crossover",
+      "fam",
+      "gpr",
+      "pub",
+      "tech_class",
+      "tmp_gpr"
+    ],
+    "columns": [
+      "citation",
+      "cited_by",
+      "cited_by_publication_number",
+      "country_code",
+      "cpc",
+      "family_id",
+      "ipc",
+      "publication_date",
+      "publication_number",
+      "value"
+    ]
+  },
+  "sf_local039.sql": {
+    "tables": [
+      "PAGILA.PAGILA.ADDRESS",
+      "PAGILA.PAGILA.CATEGORY",
+      "PAGILA.PAGILA.CITY",
+      "PAGILA.PAGILA.CUSTOMER",
+      "PAGILA.PAGILA.FILM",
+      "PAGILA.PAGILA.FILM_CATEGORY",
+      "PAGILA.PAGILA.INVENTORY",
+      "PAGILA.PAGILA.RENTAL"
+    ],
+    "columns": [
+      "city",
+      "name",
+      "rental_date",
+      "return_date"
+    ]
+  },
+  "sf_bq455.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "crossProduct",
+      "crossProductElements",
+      "dotProduct",
+      "geometryChecks",
+      "imageOrientation",
+      "imageOrientationY",
+      "localizerAndJpegCompressedSeries",
+      "nonLocalizerRawData"
+    ],
+    "columns": [
+      "Columns",
+      "Exposure",
+      "ImageOrientationPatient",
+      "ImagePositionPatient",
+      "ImageType",
+      "Modality",
+      "PatientID",
+      "PixelSpacing",
+      "Rows",
+      "SOPInstanceUID",
+      "SeriesInstanceUID",
+      "SeriesNumber",
+      "SliceThickness",
+      "StudyInstanceUID",
+      "TransferSyntaxUID",
+      "aws_bucket",
+      "collection_id",
+      "crdc_series_uuid",
+      "index",
+      "instanceSize",
+      "instance_size",
+      "iop",
+      "pixelColumns",
+      "pixelRows",
+      "rn",
+      "seriesSizeInMiB",
+      "slice_interval",
+      "value",
+      "x_vector",
+      "xyCrossProduct",
+      "xyDotProduct",
+      "xyImagePosition",
+      "y_vector",
+      "zImagePosition"
+    ]
+  },
+  "sf_bq050.sql": {
+    "tables": [
+      "NEW_YORK_CITIBIKE_1.CYCLISTIC.ZIP_CODES",
+      "NEW_YORK_CITIBIKE_1.GEO_US_BOUNDARIES.ZIP_CODES",
+      "NEW_YORK_CITIBIKE_1.NEW_YORK_CITIBIKE.CITIBIKE_TRIPS",
+      "NEW_YORK_CITIBIKE_1.NOAA_GSOD.GSOD2014",
+      "NEW_YORK_CITIBIKE_1.NOAA_GSOD.STATIONS",
+      "agg_data",
+      "data",
+      "most_common_months"
+    ],
+    "columns": [
+      "*",
+      "borough",
+      "borough_end",
+      "borough_start",
+      "da",
+      "end_station_latitude",
+      "end_station_longitude",
+      "mo",
+      "name",
+      "neighborhood",
+      "neighborhood_end",
+      "neighborhood_start",
+      "prcp",
+      "precipitation",
+      "row_num",
+      "start_month",
+      "start_station_latitude",
+      "start_station_longitude",
+      "starttime",
+      "state",
+      "temp",
+      "temperature",
+      "trip_minutes",
+      "tripduration",
+      "wban",
+      "wdsp",
+      "wind_speed",
+      "year",
+      "zip",
+      "zip_code",
+      "zip_code_geom"
+    ]
+  },
+  "sf_bq093.sql": {
+    "tables": [
+      "CRYPTO.CRYPTO_ETHEREUM_CLASSIC.BLOCKS",
+      "CRYPTO.CRYPTO_ETHEREUM_CLASSIC.TRACES",
+      "CRYPTO.CRYPTO_ETHEREUM_CLASSIC.TRANSACTIONS",
+      "double_entry_book",
+      "net_changes"
+    ],
+    "columns": [
+      "address",
+      "block_number",
+      "block_timestamp",
+      "call_type",
+      "from_address",
+      "gas_price",
+      "miner",
+      "net_change",
+      "number",
+      "receipt_gas_used",
+      "status",
+      "to_address",
+      "value"
+    ]
+  },
+  "sf_local038.sql": {
+    "tables": [
+      "PAGILA.PAGILA.ACTOR",
+      "PAGILA.PAGILA.CATEGORY",
+      "PAGILA.PAGILA.FILM",
+      "PAGILA.PAGILA.FILM_ACTOR",
+      "PAGILA.PAGILA.FILM_CATEGORY",
+      "PAGILA.PAGILA.LANGUAGE"
+    ],
+    "columns": [
+      "actor_id",
+      "category_id",
+      "film_id",
+      "first_name",
+      "language_id",
+      "last_name",
+      "length",
+      "name",
+      "rating",
+      "release_year"
+    ]
+  },
+  "sf_local004.sql": {
+    "tables": [
+      "CustomerData",
+      "E_COMMERCE.E_COMMERCE.CUSTOMERS",
+      "E_COMMERCE.E_COMMERCE.ORDERS",
+      "E_COMMERCE.E_COMMERCE.ORDER_PAYMENTS"
+    ],
+    "columns": [
+      "AOV",
+      "customer_unique_id",
+      "first_order_day",
+      "last_order_day",
+      "order_count",
+      "order_id",
+      "order_purchase_timestamp",
+      "payment_value",
+      "total_payment"
+    ]
+  },
+  "sf_bq252.sql": {
+    "tables": [
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_CONTENTS",
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_FILES",
+      "deduped_files",
+      "selected_repos"
+    ],
+    "columns": [
+      "binary",
+      "copies",
+      "id",
+      "path",
+      "repo_name"
+    ]
+  },
+  "sf_bq246.sql": {
+    "tables": [
+      "PATENTSVIEW.PATENTSVIEW.APPLICATION",
+      "PATENTSVIEW.PATENTSVIEW.CPC_CURRENT",
+      "PATENTSVIEW.PATENTSVIEW.USPATENTCITATION"
+    ],
+    "columns": [
+      "bkwdCitations_3",
+      "country",
+      "date",
+      "fwrdCitations_3",
+      "patent_id"
+    ]
+  },
+  "sf_local010.sql": {
+    "tables": [
+      "AIRLINES.AIRLINES.AIRPORTS_DATA",
+      "AIRLINES.AIRLINES.FLIGHTS",
+      "FLIGHT_INFO"
+    ],
+    "columns": [
+      "airport_code",
+      "arrival_airport",
+      "average_distance_km",
+      "city",
+      "coordinates",
+      "departure_airport",
+      "distance_km",
+      "distance_range",
+      "flight_id",
+      "from_city",
+      "from_latitude",
+      "from_longitude",
+      "group_count",
+      "to_city",
+      "to_latitude",
+      "to_longitude"
+    ]
+  },
+  "sf_bq291.sql": {
+    "tables": [
+      "NOAA_GLOBAL_FORECAST_SYSTEM.NOAA_GLOBAL_FORECAST_SYSTEM.NOAA_GFS0P25",
+      "daily_forecasts"
+    ],
+    "columns": [
+      "avg_cloud_cover",
+      "avg_temp",
+      "creation_time",
+      "forecast",
+      "forecast_date",
+      "geography",
+      "local_forecast_date",
+      "max_temp",
+      "min_temp",
+      "total_precipitation",
+      "total_rain",
+      "total_snow",
+      "value"
+    ]
+  },
+  "sf_bq295.sql": {
+    "tables": [
+      "GITHUB_REPOS_DATE.GITHUB_REPOS.SAMPLE_CONTENTS",
+      "GITHUB_REPOS_DATE.GITHUB_REPOS.SAMPLE_FILES",
+      "GITHUB_REPOS_DATE.MONTH._201701",
+      "GITHUB_REPOS_DATE.MONTH._201702",
+      "GITHUB_REPOS_DATE.MONTH._201703",
+      "GITHUB_REPOS_DATE.MONTH._201704",
+      "GITHUB_REPOS_DATE.MONTH._201705",
+      "GITHUB_REPOS_DATE.MONTH._201706",
+      "GITHUB_REPOS_DATE.MONTH._201707",
+      "GITHUB_REPOS_DATE.MONTH._201708",
+      "GITHUB_REPOS_DATE.MONTH._201709",
+      "GITHUB_REPOS_DATE.MONTH._201710",
+      "GITHUB_REPOS_DATE.MONTH._201711",
+      "GITHUB_REPOS_DATE.MONTH._201712",
+      "repo_watch_counts",
+      "watched_repos"
+    ],
+    "columns": [
+      "content",
+      "id",
+      "path",
+      "repo",
+      "repo_name",
+      "size",
+      "type",
+      "watch_count"
+    ]
+  },
+  "sf_local028.sql": {
+    "tables": [
+      "BRAZILIAN_E_COMMERCE.BRAZILIAN_E_COMMERCE.OLIST_ORDERS"
+    ],
+    "columns": [
+      "Month",
+      "Year",
+      "customer_id",
+      "month_no",
+      "order_delivered_customer_date",
+      "order_id",
+      "order_status"
+    ]
+  },
+  "sf_bq083.sql": {
+    "tables": [
+      "CRYPTO.CRYPTO_ETHEREUM.TRANSACTIONS"
+    ],
+    "columns": [
+      "Date",
+      "block_timestamp",
+      "input",
+      "to_address"
+    ]
+  },
+  "sf_bq068.sql": {
+    "tables": [
+      "CRYPTO.CRYPTO_BITCOIN_CASH.TRANSACTIONS",
+      "address_balances",
+      "double_entry_book",
+      "max_min_balances"
+    ],
+    "columns": [
+      "address",
+      "balance",
+      "block_timestamp",
+      "inputs",
+      "max_balance",
+      "min_balance",
+      "outputs",
+      "type",
+      "value"
+    ]
+  },
+  "sf_bq444.sql": {
+    "tables": [
+      "CRYPTO.CRYPTO_ETHEREUM.LOGS",
+      "parsed_burn_logs",
+      "parsed_mint_logs"
+    ],
+    "columns": [
+      "address",
+      "block_number",
+      "block_timestamp",
+      "data",
+      "log_index",
+      "topics",
+      "transaction_hash"
+    ]
+  },
+  "sf_bq121.sql": {
+    "tables": [
+      "STACKOVERFLOW.STACKOVERFLOW.BADGES",
+      "STACKOVERFLOW.STACKOVERFLOW.USERS",
+      "sub"
+    ],
+    "columns": [
+      "creation_date",
+      "id",
+      "num_badges",
+      "reputation",
+      "user_creation_date",
+      "user_id",
+      "user_tenure"
+    ]
+  },
+  "sf_ga001.sql": {
+    "tables": [
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201201",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201202",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201203",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201204",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201205",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201206",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201207",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201208",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201209",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201210",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201211",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201212",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201213",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201214",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201215",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201216",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201217",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201218",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201219",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201220",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201221",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201222",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201223",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201224",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201225",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201226",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201227",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201228",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201229",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201230",
+      "GA4.GA4_OBFUSCATED_SAMPLE_ECOMMERCE.EVENTS_20201231",
+      "ITEM_QUANTITY",
+      "ProductABuyers",
+      "PurchaseEvents"
+    ],
+    "columns": [
+      "event_name",
+      "item_name",
+      "items",
+      "quantity",
+      "total_quantity",
+      "user_pseudo_id",
+      "value"
+    ]
+  },
+  "sf_local015.sql": {
+    "tables": [
+      "BASE",
+      "CALIFORNIA_TRAFFIC_COLLISION.CALIFORNIA_TRAFFIC_COLLISION.COLLISIONS",
+      "CALIFORNIA_TRAFFIC_COLLISION.CALIFORNIA_TRAFFIC_COLLISION.PARTIES"
+    ],
+    "columns": [
+      "case_id",
+      "helmet_not_used",
+      "helmet_used",
+      "motorcycle_collision",
+      "motorcyclist_killed_count",
+      "party_age",
+      "party_safety_equipment_1",
+      "party_safety_equipment_2"
+    ]
+  },
+  "sf_bq294.sql": {
+    "tables": [
+      "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_REGIONS",
+      "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_STATION_INFO",
+      "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_TRIPS"
+    ],
+    "columns": [
+      "bike_number",
+      "duration_sec",
+      "end_station_name",
+      "member_birth_year",
+      "member_gender",
+      "name",
+      "region_id",
+      "start_date",
+      "start_station_name",
+      "subscriber_type",
+      "trip_id"
+    ]
+  },
+  "sf_local003.sql": {
+    "tables": [
+      "E_COMMERCE.E_COMMERCE.CUSTOMERS",
+      "E_COMMERCE.E_COMMERCE.ORDERS",
+      "E_COMMERCE.E_COMMERCE.ORDER_ITEMS",
+      "FrequencyScore",
+      "MonetaryScore",
+      "RFM",
+      "RecencyScore"
+    ],
+    "columns": [
+      "RFM_Bucket",
+      "customer_unique_id",
+      "frequency",
+      "last_purchase",
+      "monetary",
+      "order_id",
+      "order_purchase_timestamp",
+      "order_status",
+      "price",
+      "recency",
+      "total_orders",
+      "total_spent"
+    ]
+  },
+  "sf_bq255.sql": {
+    "tables": [
+      "GITHUB_REPOS.GITHUB_REPOS.LANGUAGES",
+      "GITHUB_REPOS.GITHUB_REPOS.LICENSES",
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_COMMITS"
+    ],
+    "columns": [
+      "language",
+      "language_name",
+      "license",
+      "message",
+      "repo_name",
+      "value"
+    ]
+  },
+  "sf_bq057.sql": {
+    "tables": [
+      "CRYPTO.CRYPTO_BITCOIN.TRANSACTIONS",
+      "coinjoinOuts",
+      "coinjoinTxs",
+      "coinjoins",
+      "coinjoinsD",
+      "totals"
+    ],
+    "columns": [
+      "block_number",
+      "block_timestamp_month",
+      "cjhash",
+      "cjs_count",
+      "cjs_input_val",
+      "cjs_inputs",
+      "cjs_month",
+      "cjs_outputs",
+      "hash",
+      "input_count",
+      "input_value",
+      "output_count",
+      "output_value",
+      "outputs",
+      "outputs_val",
+      "tx_count",
+      "tx_input_val",
+      "tx_inputs",
+      "tx_month",
+      "tx_outputs",
+      "value",
+      "value_percent"
+    ]
+  },
+  "sf_bq043.sql": {
+    "tables": [
+      "TCGA.TCGA_VERSIONED.CLINICAL_GDC_R39",
+      "TCGA.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+      "TCGA.TCGA_VERSIONED.SOMATIC_MUTATION_HG19_DCC_2017_02"
+    ],
+    "columns": [
+      "HGNC_gene_symbol",
+      "Hugo_Symbol",
+      "Variant_Type",
+      "aliquot_barcode",
+      "case_barcode",
+      "demo__days_to_death",
+      "demo__gender",
+      "demo__vital_status",
+      "gene_id",
+      "normalized_count",
+      "project_short_name",
+      "sample_barcode",
+      "submitter_id"
+    ]
+  },
+  "sf_bq321.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "relevant_series",
+      "t2_seg_lesion_series"
+    ],
+    "columns": [
+      "SegmentSequence",
+      "SeriesDescription",
+      "StudyInstanceUID",
+      "collection_id"
+    ]
+  },
+  "sf_bq334.sql": {
+    "tables": [
+      "CRYPTO.CRYPTO_BITCOIN.INPUTS",
+      "CRYPTO.CRYPTO_BITCOIN.OUTPUTS",
+      "CRYPTO.CRYPTO_BITCOIN.TRANSACTIONS",
+      "all_transactions",
+      "average_output_values",
+      "average_transaction_values",
+      "common_years",
+      "filtered_transactions"
+    ],
+    "columns": [
+      "avg_output_value",
+      "avg_transaction_value",
+      "avg_value",
+      "block_timestamp",
+      "output_value",
+      "timestamp",
+      "type",
+      "value",
+      "year"
+    ]
+  },
+  "sf_bq320.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_PIVOT"
+    ],
+    "columns": [
+      "SegmentedPropertyTypeCodeSequence",
+      "StudyInstanceUID",
+      "collection_id"
+    ]
+  },
+  "sf_local360.sql": {
+    "tables": [
+      "LOG.LOG.ACTIVITY_LOG",
+      "activity_log_with_session_click_conversion_flag",
+      "counts",
+      "min_count"
+    ],
+    "columns": [
+      "count_zeros",
+      "has_session_click",
+      "has_session_conversion",
+      "min_zeros",
+      "path",
+      "search_type",
+      "session",
+      "stamp"
+    ]
+  },
+  "sf_bq254.sql": {
+    "tables": [
+      "GEO_OPENSTREETMAP.GEO_OPENSTREETMAP.PLANET_FEATURES",
+      "bounding_area",
+      "bounding_area_features",
+      "osm_id_with_wikidata",
+      "polygons_wo_wikidata"
+    ],
+    "columns": [
+      "all_tags",
+      "feature_type",
+      "geometry",
+      "name",
+      "osm_id",
+      "value"
+    ]
+  },
+  "sf_bq233.sql": {
+    "tables": [
+      "GITHUB_REPOS_DATE.GITHUB_REPOS.SAMPLE_CONTENTS",
+      "GITHUB_REPOS_DATE.GITHUB_REPOS.SAMPLE_FILES",
+      "extracted_modules",
+      "module_counts",
+      "python",
+      "rlanguage"
+    ],
+    "columns": [
+      "content",
+      "file_id",
+      "id",
+      "language",
+      "line_",
+      "lines",
+      "module",
+      "modules",
+      "occurrence_count",
+      "path",
+      "path_",
+      "repo_name",
+      "value"
+    ]
+  },
+  "sf_bq390.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "IDC.IDC_V17.SEGMENTATIONS",
+      "mr_studies",
+      "seg_studies"
+    ],
+    "columns": [
+      "Modality",
+      "SOPInstanceUID",
+      "SegmentedPropertyCategory",
+      "SegmentedPropertyType",
+      "SeriesDescription",
+      "StudyInstanceUID",
+      "collection_id"
+    ]
+  },
+  "sf_bq421.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "SpecimenPreparationSequence_unnested",
+      "embedding_data",
+      "slide_embedding",
+      "slide_staining"
+    ],
+    "columns": [
+      "Modality",
+      "SOPInstanceUID",
+      "SpecimenDescriptionSequence",
+      "VALUE",
+      "ccs_cm",
+      "ccs_csd",
+      "ccs_val",
+      "cnc_csd",
+      "cnc_val",
+      "embeddingMedium_code_str",
+      "instance_size",
+      "staining_usingSubstance_code_str",
+      "value"
+    ]
+  },
+  "sf_bq347.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "IDC.IDC_V17.SEGMENTATIONS",
+      "union_mr_seg"
+    ],
+    "columns": [
+      "Modality",
+      "SOPInstanceUID",
+      "SegmentedPropertyCategory",
+      "SegmentedPropertyType",
+      "SeriesInstanceUID",
+      "count_"
+    ]
+  },
+  "sf_bq346.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "IDC.IDC_V17.SEGMENTATIONS",
+      "sampled_sops",
+      "segmentations_data"
+    ],
+    "columns": [
+      "Modality",
+      "PatientID",
+      "ReferencedImageSequence",
+      "ReferencedSeriesSequence",
+      "SOPClassUID",
+      "SOPInstanceUID",
+      "SegmentedPropertyCategory",
+      "SegmentedPropertyType",
+      "SeriesDescription",
+      "SeriesInstanceUID",
+      "SourceImageSequence",
+      "access",
+      "collection_id",
+      "count_",
+      "referenced_sop",
+      "seg_SOPInstanceUID",
+      "segmentation_category"
+    ]
+  },
+  "sf_bq150.sql": {
+    "tables": [
+      "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.RNASEQ_GENE_EXPRESSION_UNC_RSEM",
+      "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.SOMATIC_MUTATION_MC3",
+      "cohort",
+      "cohortExpr",
+      "cohortVar",
+      "denominator",
+      "grandMeanTable",
+      "groupMeansTable",
+      "numerator",
+      "ssBetween",
+      "ssWithin"
+    ],
+    "columns": [
+      "HGNC_gene_symbol",
+      "SYMBOL",
+      "Variant_Type",
+      "expr",
+      "grand_mean",
+      "group_mean",
+      "group_name",
+      "k",
+      "mean_sq_between",
+      "mean_sq_within",
+      "n",
+      "n_diff_sq",
+      "normalized_count",
+      "project_short_name",
+      "s2",
+      "sample_barcode",
+      "sample_barcode_tumor"
+    ]
+  },
+  "sf012.sql": {
+    "tables": [
+      "WEATHER__ENVIRONMENT.CYBERSYN.fema_national_flood_insurance_program_claim_index"
+    ],
+    "columns": [
+      "building_damage_amount",
+      "contents_damage_amount",
+      "date_of_loss",
+      "nfip_community_name",
+      "year_of_loss"
+    ]
+  },
+  "sf_bq193.sql": {
+    "tables": [
+      "GITHUB_REPOS.GITHUB_REPOS.LANGUAGES",
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_CONTENTS",
+      "GITHUB_REPOS.GITHUB_REPOS.SAMPLE_FILES",
+      "aggregated_languages",
+      "content_extracted",
+      "non_empty_lines"
+    ],
+    "columns": [
+      "content",
+      "frequency",
+      "id",
+      "language",
+      "language_name",
+      "languages",
+      "line_",
+      "lines",
+      "path",
+      "repo_name",
+      "value"
+    ]
+  },
+  "sf_bq187.sql": {
+    "tables": [
+      "ETHEREUM_BLOCKCHAIN.ETHEREUM_BLOCKCHAIN.TOKENS",
+      "ETHEREUM_BLOCKCHAIN.ETHEREUM_BLOCKCHAIN.TOKEN_TRANSFERS",
+      "receivedTx",
+      "sentTx",
+      "tokenInfo",
+      "walletBalances"
+    ],
+    "columns": [
+      "addr",
+      "address",
+      "amount_received",
+      "amount_sent",
+      "balance",
+      "from_address",
+      "name",
+      "to_address",
+      "token_address",
+      "value"
+    ]
+  },
+  "sf_local299.sql": {
+    "tables": [
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.CUSTOMER_TRANSACTIONS",
+      "customer_balance",
+      "customer_data",
+      "customer_date_series",
+      "customer_txn",
+      "monthly_data"
+    ],
+    "columns": [
+      "avg_last_30",
+      "balance",
+      "customer_id",
+      "data_allocation",
+      "data_storage",
+      "date_series",
+      "last_date",
+      "month",
+      "month_row",
+      "txn_amount",
+      "txn_date",
+      "txn_group",
+      "txn_row",
+      "txn_type"
+    ]
+  },
+  "sf_local064.sql": {
+    "tables": [
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.CUSTOMER_TRANSACTIONS",
+      "average_balance",
+      "closing_balance",
+      "final_balance",
+      "generate_months_cte",
+      "generate_series",
+      "least_positive_month",
+      "most_positive_month",
+      "positive_balance_counts"
+    ],
+    "columns": [
+      "avg_balance",
+      "customer_id",
+      "generated_month",
+      "month_end_balance",
+      "month_type",
+      "positive_balance_count",
+      "transaction_amount",
+      "txn_amount",
+      "txn_date",
+      "txn_month",
+      "txn_type",
+      "value"
+    ]
+  },
+  "sf_bq224.sql": {
+    "tables": [
+      "GITHUB_REPOS_DATE.GITHUB_REPOS.LICENSES",
+      "GITHUB_REPOS_DATE.MONTH._202204",
+      "allowed_repos",
+      "fork_counts",
+      "issue_counts",
+      "watch_counts"
+    ],
+    "columns": [
+      "actor",
+      "forks",
+      "issue_events",
+      "license",
+      "repo",
+      "repo_name",
+      "type",
+      "watches"
+    ]
+  },
+  "sf_bq422.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "geometryChecks",
+      "nonLocalizerRawData",
+      "patientMetrics",
+      "top3ByMaxExposure",
+      "top3BySliceInterval"
+    ],
+    "columns": [
+      "Exposure",
+      "ImagePositionPatient",
+      "Modality",
+      "PatientID",
+      "SeriesInstanceUID",
+      "StudyInstanceUID",
+      "VALUE",
+      "collection_id",
+      "distinctExposures",
+      "instanceSize",
+      "instance_size",
+      "maxExposureDifference",
+      "seriesSizeInMB",
+      "sliceIntervalDifferenceTolerance",
+      "sliceIntervalDifferences",
+      "slice_interval"
+    ]
+  },
+  "sf_bq345.sql": {
+    "tables": [
+      "IDC.IDC_V17.DICOM_ALL",
+      "seg_rtstruct"
+    ],
+    "columns": [
+      "Modality",
+      "ReferencedImageSequence",
+      "ReferencedSeriesSequence",
+      "SOPClassUID",
+      "SeriesInstanceUID",
+      "SourceImageSequence",
+      "StudyInstanceUID",
+      "collection_id",
+      "collection_size_KB",
+      "instance_size",
+      "viewer_url"
+    ]
+  },
+  "sf_local311.sql": {
+    "tables": [
+      "F1.F1.CONSTRUCTORS",
+      "F1.F1.DRIVERS",
+      "F1.F1.RACES",
+      "F1.F1.RESULTS",
+      "max_points",
+      "year_points"
+    ],
+    "columns": [
+      "combined_points",
+      "constructor",
+      "constructor_id",
+      "driver",
+      "driver_id",
+      "forename",
+      "max_constructor_points",
+      "max_driver_points",
+      "name",
+      "points",
+      "race_id",
+      "surname",
+      "year"
+    ]
+  },
+  "sf_bq153.sql": {
+    "tables": [
+      "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.CLINICAL_PANCAN_PATIENT_WITH_FOLLOWUP_FILTERED",
+      "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.EBPP_ADJUSTPANCAN_ILLUMINAHISEQ_RNASEQV2_GENEXP_FILTERED",
+      "table1",
+      "table2",
+      "table_data"
+    ],
+    "columns": [
+      "ParticipantBarcode",
+      "Study",
+      "Symbol",
+      "acronym",
+      "avgdata",
+      "bcr_patient_barcode",
+      "data",
+      "data1",
+      "data2",
+      "icd_o_3_histology",
+      "normalized_count",
+      "symbol"
+    ]
+  },
+  "sf011.sql": {
+    "tables": [
+      "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Dim_CensusGeography",
+      "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021",
+      "TractGroup",
+      "TractPop"
+    ],
+    "columns": [
+      "BlockGroupID",
+      "BlockGroupPolygon",
+      "CensusValue",
+      "MetricID",
+      "StateAbbrev",
+      "StateCountyTractID",
+      "TotalTractPop"
+    ]
+  },
+  "sf_bq033.sql": {
+    "tables": [
+      "Date_Series_Table",
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "Patent_Matches"
+    ],
+    "columns": [
+      "Patent_Application_Number",
+      "Patent_Date_YearMonth",
+      "Patent_Filing_Date",
+      "abstract_localized",
+      "application_number",
+      "country_code",
+      "day",
+      "filing_date",
+      "value"
+    ]
+  },
+  "sf_bq219.sql": {
+    "tables": [
+      "IOWA_LIQUOR_SALES.IOWA_LIQUOR_SALES.SALES",
+      "MonthCategory",
+      "MonthlyTotals",
+      "middle_info"
+    ],
+    "columns": [
+      "category",
+      "category1_avg_pct_of_month_volume",
+      "category2_avg_pct_of_month_volume",
+      "category_corr_across_months",
+      "category_name",
+      "category_name1",
+      "category_name2",
+      "category_pct_of_month_volume",
+      "date",
+      "month",
+      "num_months",
+      "total_monthly_volume",
+      "volume_sold_gallons"
+    ]
+  },
+  "sf_bq209.sql": {
+    "tables": [
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "forward_citation",
+      "patents_sample"
+    ],
+    "columns": [
+      "application_number",
+      "citation",
+      "cited_publication_number",
+      "citing_application_number",
+      "filing_date",
+      "forward_citations",
+      "grant_date",
+      "joined_filing_date",
+      "publication_number",
+      "value"
+    ]
+  },
+  "sf_bq221.sql": {
+    "tables": [
+      "PATENTS.PATENTS.CPC_DEFINITION",
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "max_ema",
+      "ordered_counts",
+      "patent_cpcs",
+      "ranked_ema",
+      "recursive_ema",
+      "yearly_counts"
+    ],
+    "columns": [
+      "application_number",
+      "cnt",
+      "cpc",
+      "cpc_group",
+      "ema",
+      "filing_date",
+      "filing_year",
+      "level",
+      "parents",
+      "rn",
+      "rn_rank",
+      "symbol",
+      "titleFull",
+      "value"
+    ]
+  },
+  "sf_bq037.sql": {
+    "tables": [
+      "A",
+      "B",
+      "HUMAN_GENOME_VARIANTS.HUMAN_GENOME_VARIANTS._1000_GENOMES_PHASE_3_OPTIMIZED_SCHEMA_VARIANTS_20150220",
+      "max_counts",
+      "min_counts"
+    ],
+    "columns": [
+      "max_count",
+      "max_start_position",
+      "min_count",
+      "min_start_position",
+      "reference_bases",
+      "start_position",
+      "total_count"
+    ]
+  },
+  "sf001.sql": {
+    "tables": [
+      "GLOBAL_WEATHER__CLIMATE_DATA_FOR_BI.standard_tile.history_day",
+      "timestamps"
+    ],
+    "columns": [
+      "country",
+      "date_valid_std",
+      "day_num",
+      "end_week",
+      "postal_code",
+      "ref_timestamp",
+      "tot_snowfall_in"
+    ]
+  },
+  "sf_local329.sql": {
+    "tables": [
+      "LOG.LOG.FORM_LOG",
+      "fallout_log",
+      "form_log_with_fallout_step",
+      "form_log_with_mod_fallout_step",
+      "input_to_confirm_counts",
+      "mst_fallout_step"
+    ],
+    "columns": [
+      "count",
+      "cum_count",
+      "lag_min_stamp",
+      "max_stamp",
+      "min_stamp",
+      "min_step",
+      "path",
+      "session",
+      "stamp",
+      "status",
+      "step"
+    ]
+  },
+  "sf_bq341.sql": {
+    "tables": [
+      "CRYPTO.CRYPTO_ETHEREUM.TOKEN_TRANSFERS",
+      "all_addresses",
+      "in_addresses",
+      "out_addresses",
+      "transaction_addresses"
+    ],
+    "columns": [
+      "address",
+      "from_address",
+      "to_address",
+      "token_address",
+      "total_value",
+      "value"
+    ]
+  },
+  "sf_local300.sql": {
+    "tables": [
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.CUSTOMER_TRANSACTIONS",
+      "customer_balance",
+      "customer_data",
+      "customer_date_series",
+      "customer_txn"
+    ],
+    "columns": [
+      "balance",
+      "customer_id",
+      "data_allocation",
+      "data_storage",
+      "date_series",
+      "last_date",
+      "month",
+      "txn_amount",
+      "txn_date",
+      "txn_group",
+      "txn_type"
+    ]
+  },
+  "sf014.sql": {
+    "tables": [
+      "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Dim_CensusMetrics",
+      "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021_ByZip",
+      "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_StateBenchmark_ACS2021",
+      "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.LU_GeographyExpanded",
+      "Commuters",
+      "StateBenchmark"
+    ],
+    "columns": [
+      "CensusValueByZip",
+      "MetricID",
+      "Num_Commuters_1Hr_Travel_Time",
+      "PreferredStateAbbrev",
+      "StateAbbrev",
+      "StateBenchmarkValue",
+      "StateBenchmark_Over1HrTravelTime",
+      "TotalStatePopulation",
+      "Total_Commuters_1Hr_Travel_Time",
+      "ZipCode"
+    ]
+  },
+  "sf_bq236.sql": {
+    "tables": [
+      "NOAA_DATA_PLUS.GEO_US_BOUNDARIES.ZIP_CODES",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2014",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2015",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2016",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2017",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2018",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2019",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2020",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2021",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2022",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2023",
+      "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.STORMS_2024"
+    ],
+    "columns": [
+      "city",
+      "count_storms",
+      "event_id",
+      "event_point",
+      "event_type",
+      "state_name",
+      "zip_code",
+      "zip_code_geom"
+    ]
+  },
+  "sf_bq222.sql": {
+    "tables": [
+      "PATENTS.PATENTS.CPC_DEFINITION",
+      "PATENTS.PATENTS.PUBLICATIONS",
+      "moving_avg",
+      "patent_cpcs",
+      "yearly_counts"
+    ],
+    "columns": [
+      "VALUE",
+      "application_number",
+      "cnt",
+      "country_code",
+      "cpc",
+      "cpc_group",
+      "filing_date",
+      "filing_year",
+      "grant_date",
+      "level",
+      "parents",
+      "symbol",
+      "titleFull",
+      "value"
+    ]
+  },
+  "sf002.sql": {
+    "tables": [
+      "FINANCE__ECONOMICS.CYBERSYN.financial_institution_attributes",
+      "FINANCE__ECONOMICS.CYBERSYN.financial_institution_entities",
+      "FINANCE__ECONOMICS.CYBERSYN.financial_institution_timeseries",
+      "big_banks"
+    ],
+    "columns": [
+      "date",
+      "frequency",
+      "id_rssd",
+      "is_active",
+      "name",
+      "value",
+      "variable",
+      "variable_name"
+    ]
+  },
+  "sf_bq155.sql": {
+    "tables": [
+      "TCGA_HG38_DATA_V0.TCGA_BIOCLIN_V0.CLINICAL",
+      "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.MIRNASEQ_EXPRESSION",
+      "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.RNASEQ_GENE_EXPRESSION",
+      "cohort",
+      "summ_table",
+      "table1",
+      "table2"
+    ],
+    "columns": [
+      "HTSeq__Counts",
+      "ParticipantBarcode",
+      "age_at_diagnosis",
+      "case_barcode",
+      "correlation",
+      "data",
+      "gene_name",
+      "mirna_id",
+      "n",
+      "pathologic_stage",
+      "project_short_name",
+      "reads_per_million_miRNA_mapped",
+      "rnkdata",
+      "symbol",
+      "symbol1",
+      "symbol2"
+    ]
+  },
+  "sf_bq182.sql": {
+    "tables": [
+      "GITHUB_REPOS_DATE.DAY._20230118",
+      "GITHUB_REPOS_DATE.GITHUB_REPOS.LANGUAGES",
+      "count_data",
+      "event_data",
+      "joined_data",
+      "repo_languages"
+    ],
+    "columns": [
+      "bytes",
+      "count",
+      "created_at",
+      "lang",
+      "language",
+      "name",
+      "quarter",
+      "repo",
+      "repo_name",
+      "type",
+      "value",
+      "year"
+    ]
+  },
+  "sf_local263.sql": {
+    "tables": [
+      "STACKING.STACKING.MODEL",
+      "STACKING.STACKING.MODEL_SCORE",
+      "combined",
+      "frequency",
+      "max_frequency",
+      "model_scores"
+    ],
+    "columns": [
+      "L1_model",
+      "cnt",
+      "max_cnt",
+      "max_test_score",
+      "model",
+      "name",
+      "stack_score",
+      "status",
+      "step",
+      "test_score",
+      "version"
+    ]
+  },
+  "sf_local075.sql": {
+    "tables": [
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.SHOPPING_CART_EVENTS",
+      "BANK_SALES_TRADING.BANK_SALES_TRADING.SHOPPING_CART_PAGE_HIERARCHY",
+      "product_abandoned",
+      "product_purchased",
+      "product_viewed"
+    ],
+    "columns": [
+      "abandoned_in_cart",
+      "event_type",
+      "n_added_to_cart",
+      "n_page_views",
+      "page_id",
+      "page_name",
+      "product_id",
+      "purchased_from_cart",
+      "visit_id"
+    ]
+  },
+  "sf_bq223.sql": {
+    "tables": [
+      "PATENTS.PATENTS.CPC_DEFINITION",
+      "PATENTS.PATENTS.PUBLICATIONS"
+    ],
+    "columns": [
+      "assignee_harmonized",
+      "citation",
+      "cited_assignee",
+      "cited_publication_number",
+      "citing_assignee",
+      "citing_cpc_subclass",
+      "cpc",
+      "publication_number",
+      "symbol",
+      "titleFull",
+      "value"
+    ]
+  }
+}
